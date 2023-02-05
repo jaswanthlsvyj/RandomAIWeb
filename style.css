@@ -1,0 +1,44 @@
+body {
+  cursor: url(images/wand.png), pointer;
+}
+
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+h1, h2 {
+  color: #333231;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+#hat {
+  position: relative;
+  margin-top: 50px;
+  width: 300px;
+}
+
+#magic-hat {
+  position: absolute;
+  width: 300px;
+}
+
+#rabbit {
+  position: absolute;
+  bottom: -70px;
+  left: -10px;
+  visibility: hidden;
+}
